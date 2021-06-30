@@ -1,0 +1,44 @@
+/* Introdução */
+
+.interna_portfolio{
+  background: url(../img/bg-portfolio.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* Quote */
+.quote_portfolio{
+  max-width: 440px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.quote_portfolio p{
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+.quote_portfolio cite{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/* Portfolio */
+
+.portfolio_pagina{
+  background-color: #000;
+  width: 100%;
+  padding-top: 60px;
+  overflow:hidden;
+}
+
+/* Quebra */
+
+.quebra{
+  margin-top: 60px;
+}

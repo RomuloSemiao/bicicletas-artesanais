@@ -1,0 +1,185 @@
+/* Layout para Tablets */
+@media only screen and (min-width:788px) and (max-width:979px) {
+	
+/* Qualidade */
+.qualidade:after{
+	right: 69px;
+}
+
+.qualidade_lista li{
+	text-align: center;
+	padding: 0 10px;
+}
+
+/* Footer */
+.footer_sociais ul li a{
+	border: 3px solid #FEC63E;
+	padding: 6px;
+	display: block;
+}
+
+.footer_sociais ul li a img{
+	height: 26px;
+	width: 26px;
+}
+
+/* Produtos */
+.produto_item h2{
+  top: -150px;
+  margin-bottom:-56px ;
+}
+
+.produto_icone{
+  padding: 45px 0;
+}
+
+.produto_info p{
+  font-size: 14px;
+  line-height: 20px;
+  height: 92px;
+  padding: 10px 20px;
+}
+
+.produto_info ul li{
+  width: 181px;
+  height: 49px;
+
+}
+
+} /* Final do Layout para Tablets */
+
+/* Layout para Smartphones */
+@media only screen and (max-width:787px) {
+/* Gerais */
+.call-to-action{
+	padding-top: 10px;
+}
+
+.qualidade:after{
+display: none;
+}
+
+	/* Header */
+
+.header{
+	position: relative;
+	padding-bottom: 0;
+}
+
+.header img{
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.header_menu{
+	text-align: center;
+	width: 300px;
+}
+
+.header_menu ul li{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 3px ;
+}
+
+.header_menu ul li:nth-child(1), header_menu ul li:nth-child(2){
+margin: 20px 0 5px 0;
+}
+
+.header_menu ul li a{
+	color: #000;
+	border: 4px #000 solid;
+	width: 140px;
+	display: block;
+	padding: 10px;
+}
+
+.header_menu ul li a:hover{
+	color: #fff;
+	border-color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
+	color:#fff;
+	border-color: #fff;
+}
+
+/* Introdução */
+
+.introducao{
+	margin-top: 0;
+	padding-top: 50px;
+	background: url(../img/bg-intro-mobile.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.introducao h1{
+	font-size: 36px;
+}
+
+.introducao_interna{
+	margin-top: 0;
+}
+
+/* Historia - Sobre */
+.historia{
+	margin: 0 auto;
+}
+
+.missao_sobre p {
+	padding-right: 0px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.missao_sobre ul li{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* Produtos */
+
+.produto_item h2{
+  font-size: 28px;
+  top: -100px;
+  margin-bottom:-56px ;
+}
+
+.produto_icone{
+  padding: 45px 0;
+}
+
+.produto_info p{
+  font-size: 14px;
+  line-height: 20px;
+	height: auto;
+  padding: 20px 30px;
+}
+
+.produto_info ul li{
+  width: 149px;
+  height: 49px;
+	font-size: 14px;
+}
+
+.form{
+  padding-right: 0;
+}
+
+.orcamento_dados ul{
+  padding-right: 0;
+}
+
+/* Contato */
+.form_contato{
+  padding-right: 0;
+}
+
+
+/* Footer */
+.footer_historia{
+  padding-right: 0;
+}
+
+
+}/* Final do Layout para Smartphones */
